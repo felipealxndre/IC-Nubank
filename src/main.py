@@ -5,11 +5,11 @@ from llama_index.llms.openai import OpenAI
 from nodes_from_chunks import load_nodes_from_chunks
 
 # importing retrievers
-# from retrievers.hybrid import Hybrid
+from retrievers.hybrid import Hybrid
 from retrievers.bm25 import BM25Retriever
 from retrievers.dense import DenseRetriever
 # importing agents
-from agents import StandardAgent
+from agents import StandardAgent, FusionAgent
 
 load_dotenv()
 
@@ -43,25 +43,25 @@ def main():
     )
 
     # hybrid combina os dois retrievers acima
-    # hybrid = Hybrid(
-    #     retrievers = [bm25, dense],
-    #     rrf_k = 10,
-    #     top_k=5,
-    # )
+    hybrid = Hybrid(
+        retrievers = [bm25, dense],
+        rrf_k = 10,
+        top_k=5,
+    )
 
     # retrievers = dense, hybrid, bm25 
-    retriever = bm25
+    retriever = hybrid
 
     # escolhendo o agent - RAG Standard or RAG-f (Fusion)
     
-    # RAG-Fusion
-    #rewriter = QueryRewriter(llm=llm, n = 3)
-    #agent = FusionAgent(retriever=retriever, rewriter=rewriter)
-
+    
     # Standard RAG
-    agent = StandardAgent(retriever=retriever, top_k=5)
+    #agent = StandardAgent(retriever=retriever, top_k=5)
     
-    
+    # RAG-Fusion
+    agent = FusionAgent(retriever=retriever)
+
+
     # recuperando as informações
     top_k_results = agent.retrieve(query=query)
 
