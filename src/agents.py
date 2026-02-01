@@ -2,7 +2,6 @@ from collections import defaultdict
 from query_rewrite import QueryRewriter
 
 
-
 class StandardAgent:
     """
     RAG padrão: uma única query(a do user)
@@ -19,7 +18,7 @@ class FusionAgent:
     """
     RAG-Fusion: gera variações de query, roda retrieval por query gerada e funde com RRF.
     """
-    def __init__(self, retriever, rewriter: QueryRewriter, top_k: int, rrf_k: int = 60):
+    def __init__(self, retriever, rewriter: QueryRewriter = QueryRewriter(), top_k: int = 5, rrf_k: int = 10):
         self.retriever = retriever
         self.rewriter = rewriter
         self.top_k = top_k
@@ -29,7 +28,7 @@ class FusionAgent:
         # generating queries from original query
         queries = self.rewriter.rewrite(query)
         # adiciona a query original
-        queries = [queries] + query
+        queries = [query] + queries
 
         rankings = [self.retriever.retrieve(q) for q in queries]
 

@@ -19,7 +19,7 @@ def main():
     chunks_path = root_dir / "data" / "processed" / "chunks.jsonl"
 
     # fluxo de RAG
-    query = "Quero um estudo sobre as competências da BNCC relacionadas à triângulo retângulo."
+    query = "triângulo retângulo."
 
     
     # para a geração de resposta após recuperação + rewriting de queries
@@ -43,11 +43,7 @@ def main():
     )
 
     # hybrid combina os dois retrievers acima
-    hybrid = Hybrid(
-        retrievers = [bm25, dense],
-        rrf_k = 10,
-        top_k=5,
-    )
+    hybrid = Hybrid(retrievers = [bm25, dense])
 
     # retrievers = dense, hybrid, bm25 
     retriever = hybrid
@@ -56,7 +52,7 @@ def main():
     
     
     # Standard RAG
-    #agent = StandardAgent(retriever=retriever, top_k=5)
+    # agent = StandardAgent(retriever=retriever, top_k=5)
     
     # RAG-Fusion
     agent = FusionAgent(retriever=retriever)

@@ -4,6 +4,5 @@ __pycache__/
 .venv/
 .env
 
-# Data & artifacts
-index/
-results/
+# faiss index, embeddings
+indexes/
