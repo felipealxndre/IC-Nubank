@@ -45,6 +45,10 @@ def clean_text(text: str) -> str:
     text = re.sub(r"[^a-z0-9\s]+", " ", text)
     # normaliza espaços
     text = re.sub(r"\s+", " ", text).strip()
+    # removing stopwords
+    text = remove_stopwords(text)
+    # juntando códigos da BNCC
+    text = re.sub(r"\b(e[mif])\s*(\d{1,2})\s*([a-z]{1,4})\s*(\d{1,4})\b", r"\1\2\3\4", text)
 
     return text
 
@@ -54,7 +58,9 @@ def remove_stopwords(text: str) -> str:
         return ""
     tokens = text.split()
     tokens = [t for t in tokens if t not in stop_set]
-    return " ".join(tokens)
+
+    text = " ".join(tokens)
+    return text
 
 if __name__ == "__main__":
     

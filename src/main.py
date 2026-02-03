@@ -20,7 +20,7 @@ def main():
 
     # fluxo de RAG
     queries = [
-        "EM13MAT303",
+        "Eu gostaria de saber mais sobre a competência EM13MAT303 da BNCC.",
         "Quais habilidades da BNCC envolvem teorema de Pitágoras no 9º ano?",
         "BNCC: relações métricas no triângulo retângulo (EF09MA13, EF09MA14).",
         "Geometria no Ensino Fundamental: triângulos e construção com régua e compasso.",
@@ -39,13 +39,13 @@ def main():
     bm25 = BM25Retriever(
         nodes=load_nodes_from_chunks(path= chunks_path, text_field="text_lex"),
         persist_dir = root_dir / "indexes" / "bm25", # indices salvos
-        top_k = 5,
+        top_k = 10,
     )
     # dense é um retriever baseado em embeddings (vetorial)
     dense = DenseRetriever(
         nodes=load_nodes_from_chunks(path= chunks_path, text_field="text_raw"),
         persist_dir = root_dir / "indexes" / "dense", # indices salvos
-        top_k = 5,
+        top_k = 10,
     )
 
     # hybrid combina os dois retrievers acima
@@ -57,7 +57,7 @@ def main():
     # escolhendo o agent - RAG Standard or RAG-f (Fusion)
     
     # Standard RAG
-    # agent = StandardAgent(retriever=retriever, top_k=5)
+    # agent = StandardAgent(retriever=retriever, top_k=10)
     
     
     # RAG-Fusion
@@ -72,7 +72,7 @@ def main():
             # recuperando as informações
 
             # Standard RAG
-            agent = StandardAgent(retriever=retriever, top_k=5)
+            agent = StandardAgent(retriever=retriever, top_k=10)
 
             top_k_results = agent.retrieve(query=query)
 
@@ -97,6 +97,7 @@ def main():
                 print(f"\n[{i}/{len(top_k_results)}] score={score:.4f} | page={page} | file={file_name}")
                 print(f"chunk_id: {chunk_id}")
                 print(f"preview : {preview}")
+        break
 
 if __name__ == "__main__":
     main()
