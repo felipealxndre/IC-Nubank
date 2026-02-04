@@ -1,0 +1,642 @@
+[
+  {
+    "id": "q1",
+    "query": "O que a BNCC define na habilidade EF01MA19?",
+    "relevant": {
+      "bncc_pdf__p280__c00644": 3,
+      "bncc_pdf__p280__c00645": 2,
+      "bncc_pdf__p27__c00060": 1,
+      "bncc_pdf__p30__c00065": 1,
+      "bncc_pdf__p31__c00066": 1,
+      "bncc_pdf__p23__c00053": 1,
+      "bncc_pdf__p24__c00054": 1,
+      "bncc_pdf__p28__c00061": 1,
+      "bncc_pdf__p29__c00062": 1,
+      "bncc_pdf__p8__c00015": 0
+    }
+  },
+  {
+    "id": "q2",
+    "query": "Qual o objetivo de aprendizagem da competência EI02TS01 para crianças bem pequenas?",
+    "relevant": {
+      "bncc_pdf__p26__c00057": 3,
+      "bncc_pdf__p48__c00094": 3,
+      "bncc_pdf__p26__c00058": 2,
+      "bncc_pdf__p25__c00056": 1,
+      "bncc_pdf__p40__c00081": 1,
+      "bncc_pdf__p41__c00084": 1,
+      "bncc_pdf__p44__c00088": 1,
+      "bncc_pdf__p48__c00095": 1,
+      "bncc_pdf__p35__c00073": 0,
+      "bncc_pdf__p37__c00076": 0
+    }
+  },
+  {
+    "id": "q3",
+    "query": "Como a BNCC define e diferencia os termos 'alofones' no processo de alfabetização?",
+    "relevant": {
+      "bncc_pdf__p90__c00178": 3,
+      "bncc_pdf__p90__c00179": 2,
+      "bncc_pdf__p91__c00181": 2,
+      "bncc_pdf__p89__c00176": 1,
+      "bncc_pdf__p89__c00177": 1,
+      "bncc_pdf__p91__c00180": 1,
+      "bncc_pdf__p92__c00182": 1,
+      "bncc_pdf__p93__c00185": 1,
+      "bncc_pdf__p98__c00198": 1,
+      "bncc_pdf__p101__c00203": 0
+    }
+  },
+  {
+    "id": "q4",
+    "query": "Explique o conceito de competência segundo os fundamentos pedagógicos da BNCC.",
+    "relevant": {
+      "bncc_pdf__p8__c00015": 3,
+      "bncc_pdf__p13__c00026": 3,
+      "bncc_pdf__p13__c00027": 2,
+      "bncc_pdf__p8__c00016": 2,
+      "bncc_pdf__p7__c00013": 1,
+      "bncc_pdf__p9__c00017": 1,
+      "bncc_pdf__p14__c00029": 1,
+      "bncc_pdf__p16__c00033": 1,
+      "bncc_pdf__p23__c00053": 1,
+      "bncc_pdf__p34__c00072": 1
+    }
+  },
+  {
+    "id": "q5",
+    "query": "De que maneira o documento aborda o ensino de cultura digital na Educação Infantil?",
+    "relevant": {
+      "bncc_pdf__p38__c00079": 3,
+      "bncc_pdf__p41__c00084": 2,
+      "bncc_pdf__p9__c00018": 2,
+      "bncc_pdf__p25__c00056": 1,
+      "bncc_pdf__p38__c00078": 1,
+      "bncc_pdf__p42__c00085": 1,
+      "bncc_pdf__p43__c00087": 1,
+      "bncc_pdf__p51__c00101": 1,
+      "bncc_pdf__p61__c00118": 1,
+      "bncc_pdf__p14__c00029": 1
+    }
+  },
+  {
+    "id": "q6",
+    "query": "Quais são as dez competências gerais da Educação Básica?",
+    "relevant": {
+      "bncc_pdf__p9__c00017": 3,
+      "bncc_pdf__p9__c00018": 3,
+      "bncc_pdf__p10__c00020": 3,
+      "bncc_pdf__p8__c00015": 2,
+      "bncc_pdf__p8__c00016": 2,
+      "bncc_pdf__p13__c00027": 1,
+      "bncc_pdf__p14__c00029": 1,
+      "bncc_pdf__p24__c00054": 1,
+      "bncc_pdf__p25__c00055": 1,
+      "bncc_pdf__p16__c00033": 1
+    }
+  },
+  {
+    "id": "q7",
+    "query": "Como deve ser feita a transição da Educação Infantil para o Ensino Fundamental para garantir a continuidade?",
+    "relevant": {
+      "bncc_pdf__p53__c00104": 3,
+      "bncc_pdf__p57__c00109": 3,
+      "bncc_pdf__p59__c00114": 2,
+      "bncc_pdf__p53__c00105": 2,
+      "bncc_pdf__p35__c00073": 1,
+      "bncc_pdf__p57__c00110": 1,
+      "bncc_pdf__p58__c00111": 1,
+      "bncc_pdf__p60__c00116": 1,
+      "bncc_pdf__p36__c00074": 1,
+      "bncc_pdf__p40__c00082": 0
+    }
+  },
+  {
+    "id": "q8",
+    "query": "Quais gêneros textuais são indicados para o Campo da Vida Cotidiana nos anos iniciais?",
+    "relevant": {
+      "bncc_pdf__p102__c00205": 3,
+      "bncc_pdf__p96__c00193": 3,
+      "bncc_pdf__p118__c00250": 2,
+      "bncc_pdf__p93__c00186": 2,
+      "bncc_pdf__p102__c00206": 1,
+      "bncc_pdf__p103__c00208": 1,
+      "bncc_pdf__p104__c00211": 1,
+      "bncc_pdf__p105__c00214": 1,
+      "bncc_pdf__p119__c00253": 1,
+      "bncc_pdf__p122__c00261": 1
+    }
+  },
+  {
+    "id": "q9",
+    "query": "Explique a diferença entre alfabetização e ortografização segundo a base.",
+    "relevant": {
+      "bncc_pdf__p91__c00180": 3,
+      "bncc_pdf__p93__c00185": 2,
+      "bncc_pdf__p93__c00186": 2,
+      "bncc_pdf__p89__c00177": 1,
+      "bncc_pdf__p90__c00178": 1,
+      "bncc_pdf__p59__c00113": 1,
+      "bncc_pdf__p63__c00122": 1,
+      "bncc_pdf__p114__c00241": 1,
+      "bncc_pdf__p115__c00243": 1,
+      "bncc_pdf__p89__c00176": 1
+    }
+  },
+  {
+    "id": "q10",
+    "query": "O que a habilidade EF35LP07 define sobre ortografia e pontuação?",
+    "relevant": {
+      "bncc_pdf__p112__c00236": 3,
+      "bncc_pdf__p113__c00239": 3,
+      "bncc_pdf__p83__c00165": 1,
+      "bncc_pdf__p98__c00198": 1,
+      "bncc_pdf__p100__c00202": 1,
+      "bncc_pdf__p101__c00204": 1,
+      "bncc_pdf__p116__c00245": 1,
+      "bncc_pdf__p117__c00247": 1,
+      "bncc_pdf__p82__c00163": 1,
+      "bncc_pdf__p30__c00065": 1
+    }
+  },
+  {
+    "id": "q11",
+    "query": "Como os direitos de aprendizagem e desenvolvimento são garantidos na Educação Infantil?",
+    "relevant": {
+      "bncc_pdf__p25__c00055": 3,
+      "bncc_pdf__p38__c00078": 3,
+      "bncc_pdf__p37__c00077": 2,
+      "bncc_pdf__p25__c00056": 1,
+      "bncc_pdf__p36__c00074": 1,
+      "bncc_pdf__p40__c00081": 1,
+      "bncc_pdf__p44__c00088": 1,
+      "bncc_pdf__p15__c00031": 1,
+      "bncc_pdf__p16__c00033": 1,
+      "bncc_pdf__p39__c00080": 1
+    }
+  },
+  {
+    "id": "q12",
+    "query": "Quais as orientações para o uso das TDIC (Tecnologias Digitais de Informação e Comunicação) no Ensino Médio?",
+    "relevant": {
+      "bncc_pdf__p497__c01102": 3,
+      "bncc_pdf__p572__c01249": 2,
+      "bncc_pdf__p491__c01090": 2,
+      "bncc_pdf__p9__c00018": 1,
+      "bncc_pdf__p61__c00118": 1,
+      "bncc_pdf__p14__c00029": 1,
+      "bncc_pdf__p85__c00170": 1,
+      "bncc_pdf__p511__c01132": 1,
+      "bncc_pdf__p34__c00071": 1,
+      "bncc_pdf__p65__c00125": 1
+    }
+  },
+  {
+    "id": "q13",
+    "query": "Compare o tratamento dado ao estudo de gráficos e tabelas no 1º ano e no 5º ano do Ensino Fundamental.",
+    "relevant": {
+      "bncc_pdf__p280__c00645": 3,
+      "bncc_pdf__p129__c00279": 3,
+      "bncc_pdf__p108__c00223": 2,
+      "bncc_pdf__p129__c00278": 2,
+      "bncc_pdf__p109__c00226": 1,
+      "bncc_pdf__p128__c00275": 1,
+      "bncc_pdf__p319__c00749": 1,
+      "bncc_pdf__p43__c00087": 1,
+      "bncc_pdf__p52__c00103": 1,
+      "bncc_pdf__p29__c00062": 1
+    }
+  },
+  {
+    "id": "q14",
+    "query": "O que a BNCC propõe sobre a variação linguística e o combate ao preconceito linguístico?",
+    "relevant": {
+      "bncc_pdf__p83__c00165": 3,
+      "bncc_pdf__p70__c00136": 2,
+      "bncc_pdf__p87__c00173": 2,
+      "bncc_pdf__p112__c00237": 2,
+      "bncc_pdf__p81__c00161": 1,
+      "bncc_pdf__p113__c00240": 1,
+      "bncc_pdf__p255__c00590": 1,
+      "bncc_pdf__p16__c00034": 1,
+      "bncc_pdf__p15__c00032": 1,
+      "bncc_pdf__p14__c00030": 1
+    }
+  },
+  {
+    "id": "q15",
+    "query": "Quais as competências específicas de Linguagens para o Ensino Fundamental?",
+    "relevant": {
+      "bncc_pdf__p65__c00124": 3,
+      "bncc_pdf__p65__c00125": 3,
+      "bncc_pdf__p64__c00123": 2,
+      "bncc_pdf__p63__c00121": 1,
+      "bncc_pdf__p28__c00061": 1,
+      "bncc_pdf__p3__c00004": 1,
+      "bncc_pdf__p3__c00005": 1,
+      "bncc_pdf__p86__c00172": 1,
+      "bncc_pdf__p33__c00069": 1,
+      "bncc_pdf__p24__c00054": 1
+    }
+  },
+  {
+    "id": "q16",
+    "query": "Como a BNCC orienta o desenvolvimento do projeto de vida dos estudantes no Ensino Fundamental e Médio?",
+    "relevant": {
+      "bncc_pdf__p62__c00120": 3,
+      "bncc_pdf__p472__c01053": 3,
+      "bncc_pdf__p15__c00031": 2,
+      "bncc_pdf__p9__c00018": 2,
+      "bncc_pdf__p5__c00010": 1,
+      "bncc_pdf__p8__c00015": 1,
+      "bncc_pdf__p60__c00117": 1,
+      "bncc_pdf__p461__c00100": 0,
+      "bncc_pdf__p469__c00100": 0,
+      "bncc_pdf__p14__c00029": 1
+    }
+  },
+  {
+    "id": "q17",
+    "query": "Quais são as relações fono-ortográficas consideradas complexas ou irregulares no português?",
+    "relevant": {
+      "bncc_pdf__p91__c00181": 3,
+      "bncc_pdf__p92__c00182": 3,
+      "bncc_pdf__p92__c00183": 2,
+      "bncc_pdf__p90__c00179": 2,
+      "bncc_pdf__p114__c00241": 1,
+      "bncc_pdf__p115__c00243": 1,
+      "bncc_pdf__p83__c00165": 1,
+      "bncc_pdf__p82__c00163": 1,
+      "bncc_pdf__p91__c00180": 1,
+      "bncc_pdf__p100__c00201": 0
+    }
+  },
+  {
+    "id": "q18",
+    "query": "De que forma a área de Ciências Humanas no Ensino Médio trabalha a questão das fronteiras e territórios?",
+    "relevant": {
+      "bncc_pdf__p573__c01250": 3,
+      "bncc_pdf__p573__c01251": 2,
+      "bncc_pdf__p572__c01248": 1,
+      "bncc_pdf__p623__c01241": 1,
+      "bncc_pdf__p624__c01248": 1,
+      "bncc_pdf__p381__c00839": 1,
+      "bncc_pdf__p395__c00904": 1,
+      "bncc_pdf__p71__c00139": 1,
+      "bncc_pdf__p571__c01239": 1,
+      "bncc_pdf__p21__c00050": 0
+    }
+  },
+  {
+    "id": "q19",
+    "query": "O que são as 'regulares contextuais' na escrita e quais exemplos a BNCC fornece?",
+    "relevant": {
+      "bncc_pdf__p92__c00182": 3,
+      "bncc_pdf__p92__c00183": 2,
+      "bncc_pdf__p114__c00241": 2,
+      "bncc_pdf__p115__c00243": 2,
+      "bncc_pdf__p98__c00198": 1,
+      "bncc_pdf__p99__c00200": 1,
+      "bncc_pdf__p101__c00204": 1,
+      "bncc_pdf__p91__c00180": 1,
+      "bncc_pdf__p90__c00178": 0,
+      "bncc_pdf__p93__c00185": 0
+    }
+  },
+  {
+    "id": "q20",
+    "query": "Como a BNCC descreve o papel do professor na mediação da leitura literária nos anos iniciais?",
+    "relevant": {
+      "bncc_pdf__p96__c00194": 3,
+      "bncc_pdf__p97__c00196": 3,
+      "bncc_pdf__p110__c00230": 2,
+      "bncc_pdf__p111__c00233": 2,
+      "bncc_pdf__p42__c00086": 1,
+      "bncc_pdf__p138__c00297": 1,
+      "bncc_pdf__p156__c00358": 1,
+      "bncc_pdf__p139__c00299": 1,
+      "bncc_pdf__p156__c00359": 1,
+      "bncc_pdf__p87__c00174": 1
+    }
+  },
+  {
+    "id": "q21",
+    "query": "O que a BNCC define na habilidade de Artes EF15AR01?",
+    "relevant": {
+      "bncc_pdf__p200__c00472": 3,
+      "bncc_pdf__p201__c00474": 3,
+      "bncc_pdf__p197__c00467": 1,
+      "bncc_pdf__p197__c00468": 1,
+      "bncc_pdf__p29__c00062": 2,
+      "bncc_pdf__p38__c00079": 2,
+      "bncc_pdf__p41__c00084": 2,
+      "bncc_pdf__p47__c00092": 2,
+      "bncc_pdf__p54__c00106": 2,
+      "bncc_pdf__p198__c00469": 0
+    }
+  },
+  {
+    "id": "q22",
+    "query": "Como a BNCC aborda a educação inclusiva e o respeito à diversidade no ambiente escolar?",
+    "relevant": {
+      "bncc_pdf__p5__c00010": 3,
+      "bncc_pdf__p7__c00013": 3,
+      "bncc_pdf__p7__c00014": 3,
+      "bncc_pdf__p11__c00022": 3,
+      "bncc_pdf__p16__c00033": 3,
+      "bncc_pdf__p16__c00034": 3,
+      "bncc_pdf__p36__c00074": 3,
+      "bncc_pdf__p3__c00005": 1,
+      "bncc_pdf__p3__c00006": 1,
+      "bncc_pdf__p4__c00007": 0
+    }
+  },
+  {
+    "id": "q23",
+    "query": "Quais são os objetivos da habilidade EF04CI01 sobre cadeias alimentares simples?",
+    "relevant": {
+      "bncc_pdf__p338__c00782": 3,
+      "bncc_pdf__p339__c00784": 3,
+      "bncc_pdf__p337__c00780": 1,
+      "bncc_pdf__p337__c00781": 1,
+      "bncc_pdf__p338__c00783": 1,
+      "bncc_pdf__p339__c00785": 1,
+      "bncc_pdf__p335__c00777": 1,
+      "bncc_pdf__p336__c00778": 1,
+      "bncc_pdf__p336__c00779": 1,
+      "bncc_pdf__p340__c00786": 0
+    }
+  },
+  {
+    "id": "q24",
+    "query": "Compare as abordagens do ensino de História entre os Anos Iniciais e os Anos Finais do Ensino Fundamental.",
+    "relevant": {
+      "bncc_pdf__p4__c00007": 3,
+      "bncc_pdf__p4__c00008": 3,
+      "bncc_pdf__p14__c00030": 3,
+      "bncc_pdf__p15__c00031": 3,
+      "bncc_pdf__p15__c00032": 3,
+      "bncc_pdf__p19__c00041": 3,
+      "bncc_pdf__p20__c00047": 3,
+      "bncc_pdf__p1__c00002": 1,
+      "bncc_pdf__p2__c00003": 1,
+      "bncc_pdf__p3__c00004": 0
+    }
+  },
+  {
+    "id": "q25",
+    "query": "O que propõe a competência EM13LGG101 para a área de Linguagens no Ensino Médio?",
+    "relevant": {
+      "bncc_pdf__p491__c01090": 3,
+      "bncc_pdf__p489__c01085": 1,
+      "bncc_pdf__p489__c01086": 1,
+      "bncc_pdf__p3__c00004": 2,
+      "bncc_pdf__p3__c00005": 2,
+      "bncc_pdf__p4__c00008": 2,
+      "bncc_pdf__p9__c00017": 2,
+      "bncc_pdf__p9__c00018": 2,
+      "bncc_pdf__p27__c00060": 2,
+      "bncc_pdf__p490__c01087": 0
+    }
+  },
+  {
+    "id": "q26",
+    "query": "De que forma a ludicidade deve ser mantida na transição da Educação Infantil para o Ensino Fundamental?",
+    "relevant": {
+      "bncc_pdf__p198__c00469": 3,
+      "bncc_pdf__p199__c00471": 3,
+      "bncc_pdf__p220__c00513": 3,
+      "bncc_pdf__p482__c01071": 3,
+      "bncc_pdf__p195__c00464": 1,
+      "bncc_pdf__p196__c00465": 1,
+      "bncc_pdf__p53__c00104": 2,
+      "bncc_pdf__p59__c00114": 2,
+      "bncc_pdf__p3__c00004": 2,
+      "bncc_pdf__p196__c00466": 0
+    }
+  },
+  {
+    "id": "q27",
+    "query": "Como a habilidade EF06HI01 trabalha a identificação de diferentes formas de compreensão do tempo?",
+    "relevant": {
+      "bncc_pdf__p420__c00954": 3,
+      "bncc_pdf__p421__c00958": 3,
+      "bncc_pdf__p417__c00949": 1,
+      "bncc_pdf__p417__c00950": 1,
+      "bncc_pdf__p418__c00951": 1,
+      "bncc_pdf__p418__c00952": 1,
+      "bncc_pdf__p419__c00953": 1,
+      "bncc_pdf__p420__c00955": 1,
+      "bncc_pdf__p400__c00913": 2,
+      "bncc_pdf__p420__c00956": 0
+    }
+  },
+  {
+    "id": "q28",
+    "query": "Qual a progressão do ensino de frações do 4º ano até o 6º ano do Ensino Fundamental?",
+    "relevant": {
+      "bncc_pdf__p290__c00671": 3,
+      "bncc_pdf__p291__c00674": 3,
+      "bncc_pdf__p292__c00678": 3,
+      "bncc_pdf__p293__c00681": 3,
+      "bncc_pdf__p294__c00682": 3,
+      "bncc_pdf__p295__c00685": 3,
+      "bncc_pdf__p300__c00698": 3,
+      "bncc_pdf__p288__c00666": 1,
+      "bncc_pdf__p289__c00667": 1,
+      "bncc_pdf__p289__c00668": 0
+    }
+  },
+  {
+    "id": "q29",
+    "query": "Quais as práticas de linguagem previstas na habilidade EF69LP01?",
+    "relevant": {
+      "bncc_pdf__p140__c00302": 3,
+      "bncc_pdf__p140__c00303": 3,
+      "bncc_pdf__p141__c00306": 3,
+      "bncc_pdf__p141__c00307": 3,
+      "bncc_pdf__p138__c00297": 1,
+      "bncc_pdf__p138__c00298": 1,
+      "bncc_pdf__p3__c00005": 2,
+      "bncc_pdf__p59__c00113": 2,
+      "bncc_pdf__p63__c00121": 2,
+      "bncc_pdf__p139__c00299": 0
+    }
+  },
+  {
+    "id": "q30",
+    "query": "Como o tema da sustentabilidade é integrado transversalmente nas competências de Ciências?",
+    "relevant": {
+      "bncc_pdf__p21__c00050": 3,
+      "bncc_pdf__p21__c00051": 3,
+      "bncc_pdf__p304__c00711": 3,
+      "bncc_pdf__p305__c00713": 3,
+      "bncc_pdf__p327__c00763": 3,
+      "bncc_pdf__p329__c00767": 3,
+      "bncc_pdf__p329__c00768": 3,
+      "bncc_pdf__p19__c00045": 1,
+      "bncc_pdf__p20__c00046": 1,
+      "bncc_pdf__p20__c00047": 0
+    }
+  },
+  {
+    "id": "q31",
+    "query": "Descreva a relação entre a habilidade EF09GE01 e os impactos da globalização no mundo contemporâneo.",
+    "relevant": {
+      "bncc_pdf__p392__c00897": 3,
+      "bncc_pdf__p393__c00900": 3,
+      "bncc_pdf__p390__c00892": 1,
+      "bncc_pdf__p390__c00893": 1,
+      "bncc_pdf__p383__c00877": 2,
+      "bncc_pdf__p405__c00923": 2,
+      "bncc_pdf__p430__c00986": 2,
+      "bncc_pdf__p430__c00987": 2,
+      "bncc_pdf__p431__c00989": 2,
+      "bncc_pdf__p391__c00894": 0
+    }
+  },
+  {
+    "id": "q32",
+    "query": "Como a interdisciplinaridade entre Matemática e Ciências da Natureza é incentivada no Novo Ensino Médio?",
+    "relevant": {
+      "bncc_pdf__p3__c00006": 2,
+      "bncc_pdf__p4__c00007": 2,
+      "bncc_pdf__p4__c00009": 2,
+      "bncc_pdf__p9__c00017": 2,
+      "bncc_pdf__p9__c00018": 2,
+      "bncc_pdf__p24__c00054": 2,
+      "bncc_pdf__p27__c00060": 2,
+      "bncc_pdf__p600__c00001": 1,
+      "bncc_pdf__p1__c00002": 1,
+      "bncc_pdf__p2__c00003": 0
+    }
+  },
+  {
+    "id": "q33",
+    "query": "Quais são os principais objetos de conhecimento da competência EM13CHS101 em Ciências Humanas?",
+    "relevant": {
+      "bncc_pdf__p572__c01248": 3,
+      "bncc_pdf__p568__c01243": 1,
+      "bncc_pdf__p569__c01244": 1,
+      "bncc_pdf__p4__c00007": 2,
+      "bncc_pdf__p4__c00009": 2,
+      "bncc_pdf__p28__c00061": 2,
+      "bncc_pdf__p32__c00067": 2,
+      "bncc_pdf__p33__c00069": 2,
+      "bncc_pdf__p34__c00071": 2,
+      "bncc_pdf__p570__c01245": 0
+    }
+  },
+  {
+    "id": "q34",
+    "query": "Explique o conceito de pensamento computacional na BNCC, diferenciando atividades com e sem tecnologia.",
+    "relevant": {
+      "bncc_pdf__p266__c00614": 3,
+      "bncc_pdf__p266__c00615": 3,
+      "bncc_pdf__p271__c00624": 3,
+      "bncc_pdf__p271__c00625": 3,
+      "bncc_pdf__p471__c01050": 3,
+      "bncc_pdf__p471__c01051": 3,
+      "bncc_pdf__p474__c01056": 3,
+      "bncc_pdf__p263__c00609": 1,
+      "bncc_pdf__p263__c00610": 1,
+      "bncc_pdf__p264__c00611": 0
+    }
+  },
+  {
+    "id": "q35",
+    "query": "Quais tipos de jogos e brincadeiras são contemplados na habilidade EF12EF01 de Educação Física?",
+    "relevant": {
+      "bncc_pdf__p226__c00524": 3,
+      "bncc_pdf__p227__c00527": 3,
+      "bncc_pdf__p223__c00519": 1,
+      "bncc_pdf__p223__c00520": 1,
+      "bncc_pdf__p3__c00005": 2,
+      "bncc_pdf__p3__c00006": 2,
+      "bncc_pdf__p27__c00060": 2,
+      "bncc_pdf__p28__c00061": 2,
+      "bncc_pdf__p30__c00065": 2,
+      "bncc_pdf__p224__c00521": 0
+    }
+  },
+  {
+    "id": "q36",
+    "query": "Quais as principais diferenças entre as competências específicas de Língua Inglesa e Língua Portuguesa?",
+    "relevant": {
+      "bncc_pdf__p13__c00026": 3,
+      "bncc_pdf__p241__c00554": 3,
+      "bncc_pdf__p241__c00555": 3,
+      "bncc_pdf__p241__c00556": 3,
+      "bncc_pdf__p242__c00557": 3,
+      "bncc_pdf__p242__c00558": 3,
+      "bncc_pdf__p242__c00559": 3,
+      "bncc_pdf__p11__c00021": 1,
+      "bncc_pdf__p11__c00022": 1,
+      "bncc_pdf__p11__c00023": 0
+    }
+  },
+  {
+    "id": "q37",
+    "query": "O que a BNCC estabelece para a habilidade EF01MA01 no ensino de números e contagem?",
+    "relevant": {
+      "bncc_pdf__p278__c00638": 3,
+      "bncc_pdf__p279__c00641": 3,
+      "bncc_pdf__p275__c00633": 1,
+      "bncc_pdf__p275__c00634": 1,
+      "bncc_pdf__p43__c00087": 2,
+      "bncc_pdf__p96__c00194": 2,
+      "bncc_pdf__p97__c00196": 2,
+      "bncc_pdf__p265__c00612": 2,
+      "bncc_pdf__p274__c00632": 2,
+      "bncc_pdf__p276__c00635": 0
+    }
+  },
+  {
+    "id": "q38",
+    "query": "Como a ética e a cidadania digital são discutidas no contexto das competências gerais?",
+    "relevant": {
+      "bncc_pdf__p9__c00018": 3,
+      "bncc_pdf__p16__c00033": 3,
+      "bncc_pdf__p58__c00111": 3,
+      "bncc_pdf__p59__c00113": 3,
+      "bncc_pdf__p61__c00118": 3,
+      "bncc_pdf__p65__c00125": 3,
+      "bncc_pdf__p68__c00130": 3,
+      "bncc_pdf__p7__c00013": 1,
+      "bncc_pdf__p7__c00014": 1,
+      "bncc_pdf__p8__c00015": 0
+    }
+  },
+  {
+    "id": "q39",
+    "query": "Como a habilidade EF01GE01 integra o conhecimento do corpo com a noção de espaço na Geografia?",
+    "relevant": {
+      "bncc_pdf__p370__c00852": 3,
+      "bncc_pdf__p371__c00854": 3,
+      "bncc_pdf__p367__c00847": 1,
+      "bncc_pdf__p367__c00848": 1,
+      "bncc_pdf__p9__c00017": 2,
+      "bncc_pdf__p9__c00018": 2,
+      "bncc_pdf__p14__c00030": 2,
+      "bncc_pdf__p18__c00037": 2,
+      "bncc_pdf__p19__c00041": 2,
+      "bncc_pdf__p368__c00849": 0
+    }
+  },
+  {
+    "id": "q40",
+    "query": "Como a história e cultura indígena são inseridas nas diferentes áreas do conhecimento ao longo da Educação Básica?",
+    "relevant": {
+      "bncc_pdf__p15__c00032": 3,
+      "bncc_pdf__p17__c00035": 3,
+      "bncc_pdf__p17__c00036": 3,
+      "bncc_pdf__p18__c00037": 3,
+      "bncc_pdf__p18__c00038": 3,
+      "bncc_pdf__p18__c00039": 3,
+      "bncc_pdf__p18__c00040": 3,
+      "bncc_pdf__p13__c00027": 1,
+      "bncc_pdf__p13__c00028": 1,
+      "bncc_pdf__p14__c00029": 0
+    }
+  }
+]
