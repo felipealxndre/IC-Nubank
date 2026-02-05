@@ -1,0 +1,151 @@
+query_id,query,agent,retriever,recall@5,mrr@5,ndcg@5
+q01,O que define a habilidade EM13MAT303 da BNCC?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q01,O que define a habilidade EM13MAT303 da BNCC?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q01,O que define a habilidade EM13MAT303 da BNCC?,StandardAgent,BM25Retriever,0.3333333333333333,0.5,0.5048670950817012
+q01,O que define a habilidade EM13MAT303 da BNCC?,FusionAgent,BM25Retriever,0.26666666666666666,0.5,0.4616358748129108
+q01,O que define a habilidade EM13MAT303 da BNCC?,StandardAgent,Hybrid,0.2,0.3333333333333333,0.35849408350915307
+q01,O que define a habilidade EM13MAT303 da BNCC?,FusionAgent,Hybrid,0.2,0.5,0.4616358748129108
+q02,"Para o 9º ano, quais habilidades mencionam teorema de Pitágoras e relações métricas no triângulo retângulo? Traga os códigos.",StandardAgent,DenseRetriever,0.0,0.0,0.0
+q02,"Para o 9º ano, quais habilidades mencionam teorema de Pitágoras e relações métricas no triângulo retângulo? Traga os códigos.",FusionAgent,DenseRetriever,0.0,0.0,0.0
+q02,"Para o 9º ano, quais habilidades mencionam teorema de Pitágoras e relações métricas no triângulo retângulo? Traga os códigos.",StandardAgent,BM25Retriever,0.3333333333333333,1.0,1.0
+q02,"Para o 9º ano, quais habilidades mencionam teorema de Pitágoras e relações métricas no triângulo retângulo? Traga os códigos.",FusionAgent,BM25Retriever,0.3333333333333333,1.0,1.0
+q02,"Para o 9º ano, quais habilidades mencionam teorema de Pitágoras e relações métricas no triângulo retângulo? Traga os códigos.",StandardAgent,Hybrid,0.2,1.0,0.84902624611141
+q02,"Para o 9º ano, quais habilidades mencionam teorema de Pitágoras e relações métricas no triângulo retângulo? Traga os códigos.",FusionAgent,Hybrid,0.2,1.0,0.84902624611141
+q03,Qual a diferença entre o crescimento linear e exponencial no contexto de juros simples e compostos?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q03,Qual a diferença entre o crescimento linear e exponencial no contexto de juros simples e compostos?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q03,Qual a diferença entre o crescimento linear e exponencial no contexto de juros simples e compostos?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.7513577186146676
+q03,Qual a diferença entre o crescimento linear e exponencial no contexto de juros simples e compostos?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.7513577186146676
+q03,Qual a diferença entre o crescimento linear e exponencial no contexto de juros simples e compostos?,StandardAgent,Hybrid,0.2,1.0,0.5537728103669903
+q03,Qual a diferença entre o crescimento linear e exponencial no contexto de juros simples e compostos?,FusionAgent,Hybrid,0.2,1.0,0.5811374434435087
+q04,Como a BNCC diferencia alfabetização de letramento nos anos iniciais?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q04,Como a BNCC diferencia alfabetização de letramento nos anos iniciais?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q04,Como a BNCC diferencia alfabetização de letramento nos anos iniciais?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.33901268495390774
+q04,Como a BNCC diferencia alfabetização de letramento nos anos iniciais?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.31295348268656914
+q04,Como a BNCC diferencia alfabetização de letramento nos anos iniciais?,StandardAgent,Hybrid,0.2,1.0,0.23817655464955276
+q04,Como a BNCC diferencia alfabetização de letramento nos anos iniciais?,FusionAgent,Hybrid,0.2,1.0,0.2246448335411297
+q05,Quais as orientações para o ensino de números e contagem na habilidade EF01MA01?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q05,Quais as orientações para o ensino de números e contagem na habilidade EF01MA01?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q05,Quais as orientações para o ensino de números e contagem na habilidade EF01MA01?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.9651194532279319
+q05,Quais as orientações para o ensino de números e contagem na habilidade EF01MA01?,FusionAgent,BM25Retriever,0.26666666666666666,1.0,0.9651194532279319
+q05,Quais as orientações para o ensino de números e contagem na habilidade EF01MA01?,StandardAgent,Hybrid,0.2,1.0,0.8817275317749064
+q05,Quais as orientações para o ensino de números e contagem na habilidade EF01MA01?,FusionAgent,Hybrid,0.2,1.0,0.8817275317749064
+q06,Onde aparece a aplicação do Teorema de Pitágoras no 9º ano?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q06,Onde aparece a aplicação do Teorema de Pitágoras no 9º ano?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q06,Onde aparece a aplicação do Teorema de Pitágoras no 9º ano?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.7340315065102488
+q06,Onde aparece a aplicação do Teorema de Pitágoras no 9º ano?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.9696205698332473
+q06,Onde aparece a aplicação do Teorema de Pitágoras no 9º ano?,StandardAgent,Hybrid,0.2,1.0,0.5660396061517667
+q06,Onde aparece a aplicação do Teorema de Pitágoras no 9º ano?,FusionAgent,Hybrid,0.2,1.0,0.8583826172677226
+q07,Como evolui o ensino de Probabilidade do 1º ao 9º ano do Ensino Fundamental?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q07,Como evolui o ensino de Probabilidade do 1º ao 9º ano do Ensino Fundamental?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q07,Como evolui o ensino de Probabilidade do 1º ao 9º ano do Ensino Fundamental?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.23336548982498198
+q07,Como evolui o ensino de Probabilidade do 1º ao 9º ano do Ensino Fundamental?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.29540568167729625
+q07,Como evolui o ensino de Probabilidade do 1º ao 9º ano do Ensino Fundamental?,StandardAgent,Hybrid,0.2,1.0,0.14393379751090668
+q07,Como evolui o ensino de Probabilidade do 1º ao 9º ano do Ensino Fundamental?,FusionAgent,Hybrid,0.2,1.0,0.19499303446229696
+q08,De que forma a ludicidade deve ser preservada na transição da Educação Infantil para o Ensino Fundamental?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q08,De que forma a ludicidade deve ser preservada na transição da Educação Infantil para o Ensino Fundamental?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q08,De que forma a ludicidade deve ser preservada na transição da Educação Infantil para o Ensino Fundamental?,StandardAgent,BM25Retriever,0.2,1.0,0.566626543229673
+q08,De que forma a ludicidade deve ser preservada na transição da Educação Infantil para o Ensino Fundamental?,FusionAgent,BM25Retriever,0.26666666666666666,1.0,0.6945947940318346
+q08,De que forma a ludicidade deve ser preservada na transição da Educação Infantil para o Ensino Fundamental?,StandardAgent,Hybrid,0.13333333333333333,1.0,0.4229266212616775
+q08,De que forma a ludicidade deve ser preservada na transição da Educação Infantil para o Ensino Fundamental?,FusionAgent,Hybrid,0.2,1.0,0.4984390908105851
+q09,O que a BNCC define como esportes de marca e invasão no 6º ano?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q09,O que a BNCC define como esportes de marca e invasão no 6º ano?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q09,O que a BNCC define como esportes de marca e invasão no 6º ano?,StandardAgent,BM25Retriever,0.3333333333333333,0.25,0.02950771002022834
+q09,O que a BNCC define como esportes de marca e invasão no 6º ano?,FusionAgent,BM25Retriever,0.3333333333333333,0.25,0.02950771002022834
+q09,O que a BNCC define como esportes de marca e invasão no 6º ano?,StandardAgent,Hybrid,0.2,0.0,0.0
+q09,O que a BNCC define como esportes de marca e invasão no 6º ano?,FusionAgent,Hybrid,0.2,0.0,0.0
+q10,Como a Cultura Digital é abordada nas competências gerais da BNCC?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q10,Como a Cultura Digital é abordada nas competências gerais da BNCC?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q10,Como a Cultura Digital é abordada nas competências gerais da BNCC?,StandardAgent,BM25Retriever,0.2,1.0,0.6005634351235412
+q10,Como a Cultura Digital é abordada nas competências gerais da BNCC?,FusionAgent,BM25Retriever,0.2,1.0,0.493811912464364
+q10,Como a Cultura Digital é abordada nas competências gerais da BNCC?,StandardAgent,Hybrid,0.13333333333333333,1.0,0.3742278735283574
+q10,Como a Cultura Digital é abordada nas competências gerais da BNCC?,FusionAgent,Hybrid,0.13333333333333333,0.5,0.3286606181065652
+q11,O que propõe a habilidade EF67LP01 sobre o uso de hiperlinks e escrita na web?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q11,O que propõe a habilidade EF67LP01 sobre o uso de hiperlinks e escrita na web?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q11,O que propõe a habilidade EF67LP01 sobre o uso de hiperlinks e escrita na web?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.8594239648501446
+q11,O que propõe a habilidade EF67LP01 sobre o uso de hiperlinks e escrita na web?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.8312565156726963
+q11,O que propõe a habilidade EF67LP01 sobre o uso de hiperlinks e escrita na web?,StandardAgent,Hybrid,0.2,1.0,0.764523898579065
+q11,O que propõe a habilidade EF67LP01 sobre o uso de hiperlinks e escrita na web?,FusionAgent,Hybrid,0.2,1.0,0.8312565156726963
+q12,Explique o pensamento computacional e como trabalhá-lo sem o uso de tecnologias digitais.,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q12,Explique o pensamento computacional e como trabalhá-lo sem o uso de tecnologias digitais.,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q12,Explique o pensamento computacional e como trabalhá-lo sem o uso de tecnologias digitais.,StandardAgent,BM25Retriever,0.26666666666666666,1.0,0.5509426854670464
+q12,Explique o pensamento computacional e como trabalhá-lo sem o uso de tecnologias digitais.,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.7568609674455612
+q12,Explique o pensamento computacional e como trabalhá-lo sem o uso de tecnologias digitais.,StandardAgent,Hybrid,0.2,1.0,0.3804366871876392
+q12,Explique o pensamento computacional e como trabalhá-lo sem o uso de tecnologias digitais.,FusionAgent,Hybrid,0.13333333333333333,1.0,0.4216698446932805
+q13,Quais são as competências relacionadas ao ensino de evolução biológica no Ensino Fundamental?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q13,Quais são as competências relacionadas ao ensino de evolução biológica no Ensino Fundamental?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q13,Quais são as competências relacionadas ao ensino de evolução biológica no Ensino Fundamental?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.872712285110806
+q13,Quais são as competências relacionadas ao ensino de evolução biológica no Ensino Fundamental?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.872712285110806
+q13,Quais são as competências relacionadas ao ensino de evolução biológica no Ensino Fundamental?,StandardAgent,Hybrid,0.2,1.0,0.7520649766440131
+q13,Quais são as competências relacionadas ao ensino de evolução biológica no Ensino Fundamental?,FusionAgent,Hybrid,0.2,1.0,0.6779511187127579
+q14,Como as Progressões Aritméticas e Geométricas são associadas a funções no Ensino Médio?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q14,Como as Progressões Aritméticas e Geométricas são associadas a funções no Ensino Médio?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q14,Como as Progressões Aritméticas e Geométricas são associadas a funções no Ensino Médio?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.5773678786608423
+q14,Como as Progressões Aritméticas e Geométricas são associadas a funções no Ensino Médio?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.6922949021905376
+q14,Como as Progressões Aritméticas e Geométricas são associadas a funções no Ensino Médio?,StandardAgent,Hybrid,0.2,1.0,0.5060186103945759
+q14,Como as Progressões Aritméticas e Geométricas são associadas a funções no Ensino Médio?,FusionAgent,Hybrid,0.2,1.0,0.5773678786608423
+q15,Quais habilidades tratam da construção de um hexágono regular com régua e compasso?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q15,Quais habilidades tratam da construção de um hexágono regular com régua e compasso?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q15,Quais habilidades tratam da construção de um hexágono regular com régua e compasso?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.937708058067494
+q15,Quais habilidades tratam da construção de um hexágono regular com régua e compasso?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.937708058067494
+q15,Quais habilidades tratam da construção de um hexágono regular com régua e compasso?,StandardAgent,Hybrid,0.2,1.0,0.7868924448993301
+q15,Quais habilidades tratam da construção de um hexágono regular com régua e compasso?,FusionAgent,Hybrid,0.26666666666666666,1.0,0.9306514554231109
+q16,"Como a BNCC conecta a ideia de frações, decimais e a reta numérica?",StandardAgent,DenseRetriever,0.0,0.0,0.0
+q16,"Como a BNCC conecta a ideia de frações, decimais e a reta numérica?",FusionAgent,DenseRetriever,0.0,0.0,0.0
+q16,"Como a BNCC conecta a ideia de frações, decimais e a reta numérica?",StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.28231324077203307
+q16,"Como a BNCC conecta a ideia de frações, decimais e a reta numérica?",FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.18162994804015634
+q16,"Como a BNCC conecta a ideia de frações, decimais e a reta numérica?",StandardAgent,Hybrid,0.2,1.0,0.09759845106038711
+q16,"Como a BNCC conecta a ideia de frações, decimais e a reta numérica?",FusionAgent,Hybrid,0.2,1.0,0.10611747849124875
+q17,Quais competências asseguram o respeito e a valorização das culturas indígenas?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q17,Quais competências asseguram o respeito e a valorização das culturas indígenas?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q17,Quais competências asseguram o respeito e a valorização das culturas indígenas?,StandardAgent,BM25Retriever,0.13333333333333333,0.5,0.4444040677614153
+q17,Quais competências asseguram o respeito e a valorização das culturas indígenas?,FusionAgent,BM25Retriever,0.13333333333333333,1.0,0.3341302910032583
+q17,Quais competências asseguram o respeito e a valorização das culturas indígenas?,StandardAgent,Hybrid,0.06666666666666667,0.3333333333333333,0.27247155944323315
+q17,Quais competências asseguram o respeito e a valorização das culturas indígenas?,FusionAgent,Hybrid,0.13333333333333333,0.25,0.1909315723337911
+q18,Quais os objetivos da habilidade EF04CI01 sobre cadeias alimentares?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q18,Quais os objetivos da habilidade EF04CI01 sobre cadeias alimentares?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q18,Quais os objetivos da habilidade EF04CI01 sobre cadeias alimentares?,StandardAgent,BM25Retriever,0.3333333333333333,0.0,0.0
+q18,Quais os objetivos da habilidade EF04CI01 sobre cadeias alimentares?,FusionAgent,BM25Retriever,0.3333333333333333,0.0,0.0
+q18,Quais os objetivos da habilidade EF04CI01 sobre cadeias alimentares?,StandardAgent,Hybrid,0.2,0.0,0.0
+q18,Quais os objetivos da habilidade EF04CI01 sobre cadeias alimentares?,FusionAgent,Hybrid,0.2,0.0,0.0
+q19,Como a BNCC discute a ética e a cidadania digital para jovens do Ensino Médio?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q19,Como a BNCC discute a ética e a cidadania digital para jovens do Ensino Médio?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q19,Como a BNCC discute a ética e a cidadania digital para jovens do Ensino Médio?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.3211288743054661
+q19,Como a BNCC discute a ética e a cidadania digital para jovens do Ensino Médio?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.3180250638641017
+q19,Como a BNCC discute a ética e a cidadania digital para jovens do Ensino Médio?,StandardAgent,Hybrid,0.2,1.0,0.09883052147818386
+q19,Como a BNCC discute a ética e a cidadania digital para jovens do Ensino Médio?,FusionAgent,Hybrid,0.2,0.5,0.17240321637938796
+q20,Explique a diferença fundamental entre as definições de 'Competência' e 'Habilidade' na base.,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q20,Explique a diferença fundamental entre as definições de 'Competência' e 'Habilidade' na base.,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q20,Explique a diferença fundamental entre as definições de 'Competência' e 'Habilidade' na base.,StandardAgent,BM25Retriever,0.3333333333333333,0.25,0.27727342735504823
+q20,Explique a diferença fundamental entre as definições de 'Competência' e 'Habilidade' na base.,FusionAgent,BM25Retriever,0.2,0.3333333333333333,0.16958010263680803
+q20,Explique a diferença fundamental entre as definições de 'Competência' e 'Habilidade' na base.,StandardAgent,Hybrid,0.2,0.0,0.0
+q20,Explique a diferença fundamental entre as definições de 'Competência' e 'Habilidade' na base.,FusionAgent,Hybrid,0.13333333333333333,0.0,0.0
+q21,Quais habilidades da BNCC tratam de juros simples e juros compostos? Liste os códigos e o trecho correspondente.,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q21,Quais habilidades da BNCC tratam de juros simples e juros compostos? Liste os códigos e o trecho correspondente.,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q21,Quais habilidades da BNCC tratam de juros simples e juros compostos? Liste os códigos e o trecho correspondente.,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.8903482983305157
+q21,Quais habilidades da BNCC tratam de juros simples e juros compostos? Liste os códigos e o trecho correspondente.,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.8714220844528034
+q21,Quais habilidades da BNCC tratam de juros simples e juros compostos? Liste os códigos e o trecho correspondente.,StandardAgent,Hybrid,0.2,1.0,0.647806732038101
+q21,Quais habilidades da BNCC tratam de juros simples e juros compostos? Liste os códigos e o trecho correspondente.,FusionAgent,Hybrid,0.2,1.0,0.7043515158965542
+q22,"Encontre habilidades relacionadas a funções exponenciais e logarítmicas no Ensino Médio e diferencie por contexto (Matemática Financeira, pH, radioatividade, etc.).",StandardAgent,DenseRetriever,0.0,0.0,0.0
+q22,"Encontre habilidades relacionadas a funções exponenciais e logarítmicas no Ensino Médio e diferencie por contexto (Matemática Financeira, pH, radioatividade, etc.).",FusionAgent,DenseRetriever,0.0,0.0,0.0
+q22,"Encontre habilidades relacionadas a funções exponenciais e logarítmicas no Ensino Médio e diferencie por contexto (Matemática Financeira, pH, radioatividade, etc.).",StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.9244875304510924
+q22,"Encontre habilidades relacionadas a funções exponenciais e logarítmicas no Ensino Médio e diferencie por contexto (Matemática Financeira, pH, radioatividade, etc.).",FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.9244875304510924
+q22,"Encontre habilidades relacionadas a funções exponenciais e logarítmicas no Ensino Médio e diferencie por contexto (Matemática Financeira, pH, radioatividade, etc.).",StandardAgent,Hybrid,0.2,1.0,0.7587016269716175
+q22,"Encontre habilidades relacionadas a funções exponenciais e logarítmicas no Ensino Médio e diferencie por contexto (Matemática Financeira, pH, radioatividade, etc.).",FusionAgent,Hybrid,0.2,1.0,0.7587016269716175
+q23,Quais habilidades de Língua Portuguesa tratam de ‘variação linguística’ e ‘norma-padrão’?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q23,Quais habilidades de Língua Portuguesa tratam de ‘variação linguística’ e ‘norma-padrão’?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q23,Quais habilidades de Língua Portuguesa tratam de ‘variação linguística’ e ‘norma-padrão’?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.7029213114781659
+q23,Quais habilidades de Língua Portuguesa tratam de ‘variação linguística’ e ‘norma-padrão’?,FusionAgent,BM25Retriever,0.3333333333333333,1.0,0.7029213114781659
+q23,Quais habilidades de Língua Portuguesa tratam de ‘variação linguística’ e ‘norma-padrão’?,StandardAgent,Hybrid,0.2,1.0,0.5649710554157135
+q23,Quais habilidades de Língua Portuguesa tratam de ‘variação linguística’ e ‘norma-padrão’?,FusionAgent,Hybrid,0.2,1.0,0.62582365685249
+q24,Onde a BNCC descreve a avaliação e a progressão das aprendizagens (critérios/organização) em diferentes etapas?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q24,Onde a BNCC descreve a avaliação e a progressão das aprendizagens (critérios/organização) em diferentes etapas?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q24,Onde a BNCC descreve a avaliação e a progressão das aprendizagens (critérios/organização) em diferentes etapas?,StandardAgent,BM25Retriever,0.3333333333333333,1.0,0.5181822849033655
+q24,Onde a BNCC descreve a avaliação e a progressão das aprendizagens (critérios/organização) em diferentes etapas?,FusionAgent,BM25Retriever,0.26666666666666666,1.0,0.3869772073910237
+q24,Onde a BNCC descreve a avaliação e a progressão das aprendizagens (critérios/organização) em diferentes etapas?,StandardAgent,Hybrid,0.2,1.0,0.2133151284742553
+q24,Onde a BNCC descreve a avaliação e a progressão das aprendizagens (critérios/organização) em diferentes etapas?,FusionAgent,Hybrid,0.2,0.5,0.17159048162789245
+q25,Onde a BNCC fala sobre ‘projeto de vida’ no Ensino Médio e quais implicações curriculares são citadas?,StandardAgent,DenseRetriever,0.0,0.0,0.0
+q25,Onde a BNCC fala sobre ‘projeto de vida’ no Ensino Médio e quais implicações curriculares são citadas?,FusionAgent,DenseRetriever,0.0,0.0,0.0
+q25,Onde a BNCC fala sobre ‘projeto de vida’ no Ensino Médio e quais implicações curriculares são citadas?,StandardAgent,BM25Retriever,0.3333333333333333,0.5,0.23239308648790527
+q25,Onde a BNCC fala sobre ‘projeto de vida’ no Ensino Médio e quais implicações curriculares são citadas?,FusionAgent,BM25Retriever,0.26666666666666666,1.0,0.36830782273006896
+q25,Onde a BNCC fala sobre ‘projeto de vida’ no Ensino Médio e quais implicações curriculares são citadas?,StandardAgent,Hybrid,0.2,0.3333333333333333,0.09759845106038711
+q25,Onde a BNCC fala sobre ‘projeto de vida’ no Ensino Médio e quais implicações curriculares são citadas?,FusionAgent,Hybrid,0.13333333333333333,0.5,0.123155533352972

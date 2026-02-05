@@ -1,0 +1,7 @@
+system,agent,retriever,mean_recall,mean_mrr,mean_ndcg,n_queries
+FusionAgent_BM25Retriever,FusionAgent,BM25Retriever,0.30133333333333323,0.8833333333333333,0.5728928515161449,25
+StandardAgent_BM25Retriever,StandardAgent,BM25Retriever,0.3119999999999999,0.84,0.5646423452235289,25
+FusionAgent_Hybrid,FusionAgent,Hybrid,0.1893333333333334,0.75,0.4468247674159872,25
+StandardAgent_Hybrid,StandardAgent,Hybrid,0.1893333333333334,0.7999999999999998,0.41318221074044886,25
+StandardAgent_DenseRetriever,StandardAgent,DenseRetriever,0.0,0.0,0.0,25
+FusionAgent_DenseRetriever,FusionAgent,DenseRetriever,0.0,0.0,0.0,25

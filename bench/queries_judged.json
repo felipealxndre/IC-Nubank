@@ -6,29 +6,39 @@
       "bncc_pdf__p536__c01183": 3,
       "bncc_pdf__p536__c01182": 1,
       "bncc_pdf__p34__c00072": 1,
+      "bncc_pdf__p535__c01181": 1,
+      "bncc_pdf__p43__c00087": 1,
       "bncc_pdf__p544__c01196": 0,
       "bncc_pdf__p476__c01060": 0,
       "bncc_pdf__p469__c01045": 0,
       "bncc_pdf__p470__c01047": 0,
       "bncc_pdf__p465__c01036": 0,
       "bncc_pdf__p8__c00015": 0,
-      "bncc_pdf__p489__c01086": 0
+      "bncc_pdf__p489__c01086": 0,
+      "bncc_pdf__p153__c00350": 0,
+      "bncc_pdf__p7__c00013": 0,
+      "bncc_pdf__p33__c00070": 0
     }
   },
   {
     "id": "q02",
-    "query": "Explique a competência EM 13 MAT 303.",
+    "query": "Para o 9º ano, quais habilidades mencionam teorema de Pitágoras e relações métricas no triângulo retângulo? Traga os códigos.",
     "relevant": {
-      "bncc_pdf__p34__c00071": 3,
-      "bncc_pdf__p325__c00759": 0,
-      "bncc_pdf__p137__c00294": 0,
-      "bncc_pdf__p303__c00707": 0,
-      "bncc_pdf__p542__c01193": 0,
-      "bncc_pdf__p19__c00042": 0,
-      "bncc_pdf__p26__c00057": 0,
-      "bncc_pdf__p351__c00816": 0,
-      "bncc_pdf__p393__c00902": 0,
-      "bncc_pdf__p350__c00813": 0
+      "bncc_pdf__p318__c00745": 3,
+      "bncc_pdf__p319__c00748": 3,
+      "bncc_pdf__p272__c00628": 2,
+      "bncc_pdf__p272__c00627": 1,
+      "bncc_pdf__p273__c00629": 1,
+      "bncc_pdf__p308__c00723": 0,
+      "bncc_pdf__p288__c00664": 0,
+      "bncc_pdf__p309__c00726": 0,
+      "bncc_pdf__p536__c01183": 0,
+      "bncc_pdf__p283__c00653": 0,
+      "bncc_pdf__p282__c00650": 0,
+      "bncc_pdf__p30__c00065": 0,
+      "bncc_pdf__p289__c00667": 0,
+      "bncc_pdf__p30__c00064": 0,
+      "bncc_pdf__p279__c00643": 0
     }
   },
   {
@@ -39,12 +49,17 @@
       "bncc_pdf__p544__c01196": 2,
       "bncc_pdf__p544__c01197": 2,
       "bncc_pdf__p536__c01182": 1,
+      "bncc_pdf__p269__c00621": 1,
       "bncc_pdf__p534__c01179": 0,
       "bncc_pdf__p539__c01187": 0,
       "bncc_pdf__p543__c01194": 0,
       "bncc_pdf__p171__c00407": 0,
       "bncc_pdf__p170__c00404": 0,
-      "bncc_pdf__p172__c00408": 0
+      "bncc_pdf__p172__c00408": 0,
+      "bncc_pdf__p173__c00410": 0,
+      "bncc_pdf__p563__c01232": 0,
+      "bncc_pdf__p300__c00697": 0,
+      "bncc_pdf__p301__c00700": 0
     }
   },
   {
@@ -60,7 +75,12 @@
       "bncc_pdf__p367__c00847": 1,
       "bncc_pdf__p199__c00471": 1,
       "bncc_pdf__p224__c00521": 1,
-      "bncc_pdf__p63__c00122": 1
+      "bncc_pdf__p63__c00122": 1,
+      "bncc_pdf__p140__c00302": 1,
+      "bncc_pdf__p141__c00306": 1,
+      "bncc_pdf__p28__c00061": 1,
+      "bncc_pdf__p363__c00840": 0,
+      "bncc_pdf__p362__c00837": 0
     }
   },
   {
@@ -70,13 +90,18 @@
       "bncc_pdf__p278__c00638": 3,
       "bncc_pdf__p279__c00641": 3,
       "bncc_pdf__p43__c00087": 1,
+      "bncc_pdf__p265__c00612": 1,
       "bncc_pdf__p294__c00683": 0,
       "bncc_pdf__p295__c00686": 0,
       "bncc_pdf__p312__c00729": 0,
       "bncc_pdf__p313__c00731": 0,
       "bncc_pdf__p291__c00674": 0,
       "bncc_pdf__p290__c00671": 0,
-      "bncc_pdf__p269__c00620": 0
+      "bncc_pdf__p269__c00620": 0,
+      "bncc_pdf__p282__c00648": 0,
+      "bncc_pdf__p283__c00651": 0,
+      "bncc_pdf__p290__c00672": 0,
+      "bncc_pdf__p291__c00675": 0
     }
   },
   {
@@ -87,12 +112,17 @@
       "bncc_pdf__p319__c00748": 3,
       "bncc_pdf__p272__c00628": 1,
       "bncc_pdf__p272__c00627": 1,
+      "bncc_pdf__p316__c00739": 1,
       "bncc_pdf__p317__c00742": 0,
       "bncc_pdf__p367__c00848": 0,
       "bncc_pdf__p184__c00440": 0,
       "bncc_pdf__p30__c00065": 0,
       "bncc_pdf__p350__c00813": 0,
-      "bncc_pdf__p86__c00172": 0
+      "bncc_pdf__p86__c00172": 0,
+      "bncc_pdf__p144__c00318": 0,
+      "bncc_pdf__p584__c01270": 0,
+      "bncc_pdf__p137__c00295": 0,
+      "bncc_pdf__p591__c01286": 0
     }
   },
   {
@@ -108,7 +138,12 @@
       "bncc_pdf__p280__c00645": 2,
       "bncc_pdf__p30__c00065": 1,
       "bncc_pdf__p86__c00171": 0,
-      "bncc_pdf__p27__c00060": 0
+      "bncc_pdf__p27__c00060": 0,
+      "bncc_pdf__p197__c00467": 0,
+      "bncc_pdf__p144__c00318": 0,
+      "bncc_pdf__p137__c00295": 0,
+      "bncc_pdf__p78__c00155": 0,
+      "bncc_pdf__p315__c00737": 0
     }
   },
   {
@@ -120,11 +155,16 @@
       "bncc_pdf__p199__c00471": 2,
       "bncc_pdf__p89__c00177": 2,
       "bncc_pdf__p53__c00105": 2,
+      "bncc_pdf__p354__c00823": 2,
+      "bncc_pdf__p25__c00055": 2,
+      "bncc_pdf__p44__c00088": 2,
+      "bncc_pdf__p37__c00077": 2,
       "bncc_pdf__p59__c00114": 1,
       "bncc_pdf__p57__c00109": 1,
       "bncc_pdf__p41__c00083": 1,
-      "bncc_pdf__p3__c00004": 0,
-      "bncc_pdf__p35__c00073": 0
+      "bncc_pdf__p36__c00074": 1,
+      "bncc_pdf__p213__c00499": 1,
+      "bncc_pdf__p9__c00017": 1
     }
   },
   {
@@ -134,13 +174,18 @@
       "bncc_pdf__p227__c00528": 3,
       "bncc_pdf__p226__c00525": 3,
       "bncc_pdf__p228__c00531": 2,
+      "bncc_pdf__p216__c00506": 2,
       "bncc_pdf__p225__c00523": 1,
+      "bncc_pdf__p215__c00503": 1,
       "bncc_pdf__p233__c00541": 0,
       "bncc_pdf__p232__c00539": 0,
       "bncc_pdf__p231__c00538": 0,
       "bncc_pdf__p236__c00545": 0,
       "bncc_pdf__p237__c00548": 0,
-      "bncc_pdf__p229__c00534": 0
+      "bncc_pdf__p229__c00534": 0,
+      "bncc_pdf__p226__c00524": 0,
+      "bncc_pdf__p227__c00527": 0,
+      "bncc_pdf__p152__c00347": 0
     }
   },
   {
@@ -154,9 +199,14 @@
       "bncc_pdf__p70__c00135": 2,
       "bncc_pdf__p61__c00118": 2,
       "bncc_pdf__p72__c00141": 2,
+      "bncc_pdf__p357__c00828": 2,
+      "bncc_pdf__p206__c00485": 2,
+      "bncc_pdf__p207__c00488": 2,
+      "bncc_pdf__p433__c00994": 2,
       "bncc_pdf__p500__c01109": 1,
-      "bncc_pdf__p214__c00501": 0,
-      "bncc_pdf__p222__c00518": 0
+      "bncc_pdf__p222__c00517": 1,
+      "bncc_pdf__p246__c00568": 1,
+      "bncc_pdf__p25__c00055": 1
     }
   },
   {
@@ -169,6 +219,11 @@
       "bncc_pdf__p68__c00130": 1,
       "bncc_pdf__p77__c00152": 1,
       "bncc_pdf__p68__c00131": 1,
+      "bncc_pdf__p381__c00873": 1,
+      "bncc_pdf__p243__c00562": 1,
+      "bncc_pdf__p72__c00140": 1,
+      "bncc_pdf__p61__c00118": 1,
+      "bncc_pdf__p250__c00575": 1,
       "bncc_pdf__p185__c00443": 0,
       "bncc_pdf__p184__c00440": 0,
       "bncc_pdf__p243__c00561": 0,
@@ -182,13 +237,18 @@
       "bncc_pdf__p474__c01056": 3,
       "bncc_pdf__p471__c01051": 2,
       "bncc_pdf__p271__c00625": 2,
+      "bncc_pdf__p58__c00112": 2,
+      "bncc_pdf__p266__c00615": 2,
+      "bncc_pdf__p515__c01141": 2,
       "bncc_pdf__p528__c01169": 1,
       "bncc_pdf__p471__c01050": 1,
       "bncc_pdf__p271__c00624": 1,
       "bncc_pdf__p528__c01168": 1,
       "bncc_pdf__p531__c01174": 1,
-      "bncc_pdf__p475__c01058": 0,
-      "bncc_pdf__p515__c01141": 0
+      "bncc_pdf__p94__c00188": 1,
+      "bncc_pdf__p95__c00191": 1,
+      "bncc_pdf__p266__c00614": 1,
+      "bncc_pdf__p269__c00620": 1
     }
   },
   {
@@ -202,9 +262,14 @@
       "bncc_pdf__p349__c00811": 2,
       "bncc_pdf__p347__c00805": 2,
       "bncc_pdf__p346__c00802": 2,
+      "bncc_pdf__p334__c00774": 2,
+      "bncc_pdf__p335__c00776": 2,
       "bncc_pdf__p351__c00817": 1,
       "bncc_pdf__p355__c00825": 1,
-      "bncc_pdf__p548__c01205": 1
+      "bncc_pdf__p548__c01205": 1,
+      "bncc_pdf__p559__c01225": 1,
+      "bncc_pdf__p29__c00062": 1,
+      "bncc_pdf__p33__c00069": 1
     }
   },
   {
@@ -213,6 +278,11 @@
     "relevant": {
       "bncc_pdf__p544__c01196": 3,
       "bncc_pdf__p541__c01192": 2,
+      "bncc_pdf__p543__c01195": 2,
+      "bncc_pdf__p316__c00740": 2,
+      "bncc_pdf__p536__c01183": 2,
+      "bncc_pdf__p267__c00616": 1,
+      "bncc_pdf__p544__c01197": 1,
       "bncc_pdf__p265__c00612": 0,
       "bncc_pdf__p539__c01187": 0,
       "bncc_pdf__p543__c01194": 0,
@@ -233,10 +303,15 @@
       "bncc_pdf__p309__c00725": 1,
       "bncc_pdf__p303__c00709": 1,
       "bncc_pdf__p302__c00705": 1,
+      "bncc_pdf__p308__c00721": 1,
+      "bncc_pdf__p309__c00724": 1,
       "bncc_pdf__p318__c00745": 0,
       "bncc_pdf__p319__c00748": 0,
       "bncc_pdf__p303__c00708": 0,
-      "bncc_pdf__p302__c00704": 0
+      "bncc_pdf__p302__c00704": 0,
+      "bncc_pdf__p92__c00182": 0,
+      "bncc_pdf__p114__c00241": 0,
+      "bncc_pdf__p115__c00243": 0
     }
   },
   {
@@ -249,8 +324,13 @@
       "bncc_pdf__p287__c00663": 2,
       "bncc_pdf__p317__c00742": 2,
       "bncc_pdf__p316__c00739": 2,
+      "bncc_pdf__p269__c00620": 2,
+      "bncc_pdf__p286__c00658": 2,
       "bncc_pdf__p294__c00682": 1,
       "bncc_pdf__p295__c00685": 1,
+      "bncc_pdf__p306__c00715": 1,
+      "bncc_pdf__p291__c00674": 1,
+      "bncc_pdf__p290__c00671": 1,
       "bncc_pdf__p301__c00701": 0,
       "bncc_pdf__p300__c00698": 0
     }
@@ -267,8 +347,13 @@
       "bncc_pdf__p259__c00600": 2,
       "bncc_pdf__p430__c00987": 2,
       "bncc_pdf__p258__c00598": 2,
-      "bncc_pdf__p463__c01032": 1,
-      "bncc_pdf__p483__c01073": 1
+      "bncc_pdf__p45__c00090": 2,
+      "bncc_pdf__p476__c01061": 2,
+      "bncc_pdf__p401__c00914": 2,
+      "bncc_pdf__p263__c00610": 2,
+      "bncc_pdf__p328__c00765": 2,
+      "bncc_pdf__p427__c00978": 2,
+      "bncc_pdf__p426__c00975": 2
     }
   },
   {
@@ -284,7 +369,12 @@
       "bncc_pdf__p445__c01013": 0,
       "bncc_pdf__p442__c01010": 0,
       "bncc_pdf__p443__c01011": 0,
-      "bncc_pdf__p31__c00066": 0
+      "bncc_pdf__p31__c00066": 0,
+      "bncc_pdf__p197__c00468": 0,
+      "bncc_pdf__p222__c00518": 0,
+      "bncc_pdf__p25__c00056": 0,
+      "bncc_pdf__p214__c00501": 0,
+      "bncc_pdf__p29__c00062": 0
     }
   },
   {
@@ -299,8 +389,13 @@
       "bncc_pdf__p464__c01034": 2,
       "bncc_pdf__p465__c01038": 2,
       "bncc_pdf__p9__c00018": 2,
+      "bncc_pdf__p72__c00141": 2,
+      "bncc_pdf__p474__c01056": 2,
+      "bncc_pdf__p474__c01057": 2,
       "bncc_pdf__p498__c01104": 1,
-      "bncc_pdf__p466__c01039": 1
+      "bncc_pdf__p466__c01039": 1,
+      "bncc_pdf__p430__c00986": 1,
+      "bncc_pdf__p431__c00989": 1
     }
   },
   {
@@ -310,28 +405,123 @@
       "bncc_pdf__p34__c00071": 2,
       "bncc_pdf__p531__c01174": 2,
       "bncc_pdf__p535__c01180": 2,
+      "bncc_pdf__p13__c00026": 2,
+      "bncc_pdf__p29__c00062": 2,
       "bncc_pdf__p81__c00160": 0,
       "bncc_pdf__p325__c00759": 0,
       "bncc_pdf__p488__c01084": 0,
       "bncc_pdf__p155__c00355": 0,
       "bncc_pdf__p154__c00352": 0,
       "bncc_pdf__p411__c00935": 0,
-      "bncc_pdf__p410__c00933": 0
+      "bncc_pdf__p410__c00933": 0,
+      "bncc_pdf__p371__c00854": 0,
+      "bncc_pdf__p442__c01010": 0,
+      "bncc_pdf__p360__c00833": 0
     }
   },
   {
     "id": "q21",
     "query": "Quais habilidades da BNCC tratam de juros simples e juros compostos? Liste os códigos e o trecho correspondente.",
-    "relevant": {}
+    "relevant": {
+      "bncc_pdf__p544__c01196": 3,
+      "bncc_pdf__p536__c01183": 3,
+      "bncc_pdf__p543__c01194": 3,
+      "bncc_pdf__p269__c00621": 2,
+      "bncc_pdf__p536__c01182": 0,
+      "bncc_pdf__p534__c01179": 0,
+      "bncc_pdf__p269__c00620": 0,
+      "bncc_pdf__p172__c00408": 0,
+      "bncc_pdf__p173__c00410": 0,
+      "bncc_pdf__p118__c00250": 0,
+      "bncc_pdf__p119__c00253": 0,
+      "bncc_pdf__p284__c00655": 0,
+      "bncc_pdf__p285__c00657": 0,
+      "bncc_pdf__p137__c00294": 0,
+      "bncc_pdf__p93__c00186": 0
+    }
   },
   {
     "id": "q22",
     "query": "Encontre habilidades relacionadas a funções exponenciais e logarítmicas no Ensino Médio e diferencie por contexto (Matemática Financeira, pH, radioatividade, etc.).",
-    "relevant": {}
+    "relevant": {
+      "bncc_pdf__p544__c01196": 3,
+      "bncc_pdf__p536__c01183": 3,
+      "bncc_pdf__p544__c01197": 2,
+      "bncc_pdf__p539__c01187": 2,
+      "bncc_pdf__p541__c01192": 2,
+      "bncc_pdf__p269__c00621": 2,
+      "bncc_pdf__p543__c01194": 2,
+      "bncc_pdf__p543__c01195": 1,
+      "bncc_pdf__p316__c00739": 1,
+      "bncc_pdf__p317__c00743": 1,
+      "bncc_pdf__p541__c01191": 0,
+      "bncc_pdf__p29__c00062": 0,
+      "bncc_pdf__p306__c00716": 0,
+      "bncc_pdf__p410__c00933": 0,
+      "bncc_pdf__p411__c00935": 0
+    }
   },
   {
     "id": "q23",
-    "query": "",
-    "relevant": {}
+    "query": "Quais habilidades de Língua Portuguesa tratam de ‘variação linguística’ e ‘norma-padrão’?",
+    "relevant": {
+      "bncc_pdf__p160__c00373": 3,
+      "bncc_pdf__p161__c00376": 3,
+      "bncc_pdf__p255__c00590": 3,
+      "bncc_pdf__p112__c00237": 3,
+      "bncc_pdf__p113__c00240": 3,
+      "bncc_pdf__p504__c01119": 3,
+      "bncc_pdf__p139__c00300": 2,
+      "bncc_pdf__p186__c00446": 2,
+      "bncc_pdf__p245__c00565": 2,
+      "bncc_pdf__p507__c01125": 2,
+      "bncc_pdf__p80__c00158": 2,
+      "bncc_pdf__p254__c00587": 2,
+      "bncc_pdf__p190__c00455": 2,
+      "bncc_pdf__p71__c00137": 1,
+      "bncc_pdf__p139__c00299": 1
+    }
+  },
+  {
+    "id": "q24",
+    "query": "Onde a BNCC descreve a avaliação e a progressão das aprendizagens (critérios/organização) em diferentes etapas?",
+    "relevant": {
+      "bncc_pdf__p219__c00511": 2,
+      "bncc_pdf__p169__c00401": 2,
+      "bncc_pdf__p34__c00071": 2,
+      "bncc_pdf__p197__c00468": 2,
+      "bncc_pdf__p31__c00066": 2,
+      "bncc_pdf__p145__c00319": 2,
+      "bncc_pdf__p247__c00570": 2,
+      "bncc_pdf__p168__c00398": 1,
+      "bncc_pdf__p185__c00443": 1,
+      "bncc_pdf__p184__c00440": 1,
+      "bncc_pdf__p489__c01086": 1,
+      "bncc_pdf__p80__c00159": 1,
+      "bncc_pdf__p157__c00362": 1,
+      "bncc_pdf__p156__c00358": 1,
+      "bncc_pdf__p13__c00026": 1
+    }
+  },
+  {
+    "id": "q25",
+    "query": "Onde a BNCC fala sobre ‘projeto de vida’ no Ensino Médio e quais implicações curriculares são citadas?",
+    "relevant": {
+      "bncc_pdf__p472__c01053": 3,
+      "bncc_pdf__p502__c01114": 3,
+      "bncc_pdf__p146__c00324": 2,
+      "bncc_pdf__p147__c00328": 2,
+      "bncc_pdf__p481__c01070": 2,
+      "bncc_pdf__p512__c01135": 2,
+      "bncc_pdf__p383__c00878": 2,
+      "bncc_pdf__p463__c01032": 1,
+      "bncc_pdf__p17__c00036": 1,
+      "bncc_pdf__p367__c00848": 0,
+      "bncc_pdf__p42__c00085": 0,
+      "bncc_pdf__p184__c00439": 0,
+      "bncc_pdf__p185__c00442": 0,
+      "bncc_pdf__p94__c00187": 0,
+      "bncc_pdf__p95__c00190": 0
+    }
   }
 ]

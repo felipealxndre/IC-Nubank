@@ -24,7 +24,7 @@ with open(chunks_path, "r", encoding="utf-8") as f:
 
 for item in itens:
     query_id = item['id']
-    if query_id == "q01":
+    if query_id == "q5":
         query = item['query']
         relevants = item['relevant']
         print(f"\n[yellow]Query: {query} [/yellow]\n")
