@@ -1,7 +1,7 @@
 system,agent,retriever,mean_recall,mean_mrr,mean_ndcg,n_queries
-FusionAgent_BM25Retriever,FusionAgent,BM25Retriever,0.30133333333333323,0.8833333333333333,0.5728928515161449,25
-StandardAgent_BM25Retriever,StandardAgent,BM25Retriever,0.3119999999999999,0.84,0.5646423452235289,25
-FusionAgent_Hybrid,FusionAgent,Hybrid,0.1893333333333334,0.75,0.4468247674159872,25
-StandardAgent_Hybrid,StandardAgent,Hybrid,0.1893333333333334,0.7999999999999998,0.41318221074044886,25
-StandardAgent_DenseRetriever,StandardAgent,DenseRetriever,0.0,0.0,0.0,25
-FusionAgent_DenseRetriever,FusionAgent,DenseRetriever,0.0,0.0,0.0,25
+FusionAgent_Hybrid,FusionAgent,Hybrid,0.29835164835164835,0.9318181818181818,0.6845368835653782,22
+StandardAgent_Hybrid,StandardAgent,Hybrid,0.2943445443445443,0.9015151515151515,0.6668924255971377,22
+FusionAgent_BM25Retriever,FusionAgent,BM25Retriever,0.29185814185814185,0.9545454545454546,0.6438517893485556,22
+StandardAgent_BM25Retriever,StandardAgent,BM25Retriever,0.2855810855810856,0.8863636363636364,0.6396850128099479,22
+StandardAgent_DenseRetriever,StandardAgent,DenseRetriever,0.29250749250749253,0.9090909090909091,0.6267272964755917,22
+FusionAgent_DenseRetriever,FusionAgent,DenseRetriever,0.2599400599400599,0.8787878787878788,0.6003721280009019,22

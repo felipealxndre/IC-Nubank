@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .venv/
 .env
+bench/
 
 # faiss index, embeddings
 indexes/

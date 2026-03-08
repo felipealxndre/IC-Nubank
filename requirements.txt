@@ -1,0 +1,32 @@
+# Variáveis de ambiente (.env)
+python-dotenv>=1.0.0
+
+# LlamaIndex (RAG, nós, índices)
+llama-index-core>=0.12.0
+llama-index-embeddings-openai>=0.2.0
+llama-index-vector-stores-faiss>=0.2.0
+llama-index-retrievers-bm25>=0.2.0
+
+# FAISS (índice vetorial)
+faiss-cpu>=1.7.4
+
+# Stemming (BM25)
+PyStemmer>=2.2.0
+
+# LangChain (LLM, reescrita de query, judge)
+langchain-openai>=0.2.0
+langchain-core>=0.3.0
+
+# Validação e schemas
+pydantic>=2.0.0
+
+# NLP (stopwords, corpus)
+nltk>=3.8.0
+
+# Relatórios e gráficos
+matplotlib>=3.7.0
+pandas>=2.0.0
+seaborn>=0.12.0
+
+# OpenAI (usado por embeddings e LLM)
+openai>=1.0.0

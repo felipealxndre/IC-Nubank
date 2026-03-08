@@ -1,8 +1,8 @@
 | System | nDCG@5 | MRR@5 | Recall@5 | #Queries |
 |---|---:|---:|---:|---:|
-| FusionAgent_BM25Retriever | 0.573 | 0.883 | 0.301 | 25 |
-| StandardAgent_BM25Retriever | 0.565 | 0.840 | 0.312 | 25 |
-| FusionAgent_Hybrid | 0.447 | 0.750 | 0.189 | 25 |
-| StandardAgent_Hybrid | 0.413 | 0.800 | 0.189 | 25 |
-| StandardAgent_DenseRetriever | 0.000 | 0.000 | 0.000 | 25 |
-| FusionAgent_DenseRetriever | 0.000 | 0.000 | 0.000 | 25 |
+| FusionAgent_Hybrid | 0.685 | 0.932 | 0.298 | 22 |
+| StandardAgent_Hybrid | 0.667 | 0.902 | 0.294 | 22 |
+| FusionAgent_BM25Retriever | 0.644 | 0.955 | 0.292 | 22 |
+| StandardAgent_BM25Retriever | 0.640 | 0.886 | 0.286 | 22 |
+| StandardAgent_DenseRetriever | 0.627 | 0.909 | 0.293 | 22 |
+| FusionAgent_DenseRetriever | 0.600 | 0.879 | 0.260 | 22 |

@@ -3,18 +3,20 @@ from pathlib import Path
 import json
 
 
-
-
-# recall = identificar itens 
 def recall(retrieved_chunks: list[str], benchmark: dict[str, int], k: int) -> float:
-    rel_ids = [cid for cid, imp in benchmark.items()]
+    """
+    Recall@k: fração dos documentos relevantes (nota > 0) que aparecem no top-k.
+    benchmark: chunk_id -> nota (0-3); só entram no gold relevante as notas > 0.
+    """
+    rel_ids = [cid for cid, imp in benchmark.items() if int(imp) > 0]
     if len(rel_ids) == 0:
         return 0.0
     retrieved_chunks = retrieved_chunks[:k]
     hits = sum(1 for cid in retrieved_chunks if cid in rel_ids)
     return hits / len(rel_ids)
 
-def mean_reciprocal_rank(ranked_ids, relevant, k):
+def mean_reciprocal_rank(ranked_ids: list[str], relevant: dict[str, int], k: int) -> float:
+    """MRR@k: 1/rank do primeiro documento relevante (nota > 0) no top-k."""
     rel_ids = {cid for cid, imp in relevant.items() if int(imp) > 0}
     for rank, cid in enumerate(ranked_ids[:k], start=1):
         if cid in rel_ids:

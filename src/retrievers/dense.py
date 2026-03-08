@@ -4,6 +4,7 @@ from llama_index.core import Settings, StorageContext, VectorStoreIndex, load_in
 from llama_index.vector_stores.faiss import FaissVectorStore
 from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.core.schema import TextNode
+import sys
 
 
 class DenseRetriever:
@@ -47,4 +48,13 @@ class DenseRetriever:
         self._retriever = self._index.as_retriever(similarity_top_k=top_k)
 
     def retrieve(self, query: str):
-        return self._retriever.retrieve(query)[: self.top_k]
+        try:
+            return self._retriever.retrieve(query)[: self.top_k]
+        except IndexError as e:
+            if "0-dimensional" in str(e) or "too many indices" in str(e):
+                print(
+                    f"[DenseRetriever] aviso: embedding malformado para a query, retornando lista vazia. Erro: {e}",
+                    file=sys.stderr,
+                )
+                return []
+            raise

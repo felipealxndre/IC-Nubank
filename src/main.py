@@ -1,7 +1,5 @@
 from pathlib import Path
 from dotenv import load_dotenv
-
-from llama_index.llms.openai import OpenAI
 from nodes_from_chunks import load_nodes_from_chunks
 
 # importing retrievers
@@ -20,11 +18,12 @@ root_dir = Path(__file__).resolve().parents[1]
 
 load_dotenv()
 
+
 def main():
 
     root_dir = Path(__file__).resolve().parents[1]
     chunks_path = root_dir / "data" / "processed" / "chunks.jsonl"
-    bench_path = root_dir / "bench" / "queries.json"
+    bench_path = root_dir / "bench" / "queries_judged.json"
     top_k = 5
 
     with bench_path.open("r", encoding="utf-8") as f:
@@ -49,11 +48,17 @@ def main():
     retrievers = [dense, bm25, hybrid]
     
 
+    def relevant_as_dict(relevant):
+        """Aceita relevant como dict (queries.json) ou lista de {chunk_id, nota, ...} (queries_judged / queries_with_text)."""
+        if isinstance(relevant, list):
+            return {e["chunk_id"]: int(e["nota"]) for e in relevant if e.get("nota") is not None}
+        return {str(k): int(v) for k, v in (relevant or {}).items()}
+
     results = []
     for item in benchmark:
         query_id = item['id']
         query = item['query']
-        relevant = item['relevant']
+        relevant = relevant_as_dict(item['relevant'])
         for retriever in retrievers:
             # escolhendo o agent - RAG Standard or RAG-f (Fusion)
             # Standard RAG

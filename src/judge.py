@@ -37,8 +37,8 @@ Score = Literal[0, 1, 2, 3]
 
 class ChunkJudge(BaseModel):
     chunk_id: str = Field(..., description="ID do trecho avaliado.")
-    score: Score = Field(..., description="0=irrelevante, 3=muito relevante.")
-    rationale: Optional[str] = Field(None, description="Motivo curto (opcional).")
+    score: Score = Field(..., description="0=irrelevante, 1=fraco, 2=relacionado, 3=evidência direta.")
+    rationale: Optional[str] = Field(None, description="Justificativa em uma frase, com base apenas no texto.")
 
 
 def one_line(text: str) -> str:
@@ -98,27 +98,49 @@ def build_agents(retriever, rewriter: QueryRewriter, top_k: int):
     return [standard, fusion]
 
 
+# Rubrica de relevância para o avaliador (fonte única de verdade)
+RELEVANCE_RUBRIC = """Escala de relevância (use apenas inteiros 0, 1, 2 ou 3):
+
+3 — Responde diretamente à consulta e contém evidência clara no texto. Um usuário que lesse só esse trecho teria a resposta ou a definição pedida.
+
+2 — Muito relacionado ao tema e ajuda bastante a responder. Contém informação útil e específica, mas não é a evidência mais direta (ex.: contexto próximo, outra habilidade da mesma área).
+
+1 — Relacionado indiretamente ou contexto fraco. Menciona o tema de longe, estrutura da BNCC, ou texto genérico sobre educação/currículo.
+
+0 — Irrelevante ou genérico. Não ajuda a responder à consulta (ex.: apenas número de página, lista de códigos sem descrição, lei genérica, outra área do conhecimento)."""
+
+BNCC_CODE_RULE = """Regra para códigos BNCC: Se a consulta mencionar um código específico (ex.: EM13MAT303, EF01MA01), só atribua 3 se o trecho contiver esse mesmo código ou a descrição textual exata dessa habilidade/objetivo. Trechos que só explicam o sistema de códigos ou listam outros códigos sem o solicitado devem receber no máximo 2."""
+
+
 def build_chunk_judge_chain():
     llm = ChatOpenAI(model=MODEL, temperature=0.0)
     parser = PydanticOutputParser(pydantic_object=ChunkJudge)
 
+    system = (
+        "Você é um avaliador de relevância para benchmark de recuperação de informação sobre a BNCC (Base Nacional Comum Curricular). "
+        "Sua tarefa é classificar se um trecho do documento ajuda a responder a uma consulta do usuário.\n\n"
+        "Regras de conduta:\n"
+        "- Baseie-se somente no conteúdo do trecho. Não use conhecimento externo.\n"
+        "- Não invente ou interprete além do que está escrito no trecho.\n"
+        "- Seja consistente: o mesmo tipo de relação consulta-trecho deve receber o mesmo score.\n"
+        "- Sempre preencha o campo rationale em uma frase, citando o que no trecho justifica o score."
+    )
+
     prompt = ChatPromptTemplate.from_messages(
         [
-            ("system",
-             "Você é um avaliador de relevância para benchmark de recuperação em documento oficial (BNCC). "
-             "Você não inventa fatos. Você avalia apenas se o trecho ajuda a responder a consulta."),
-            ("human",
-             "Consulta:\n{query}\n\n"
-             "Trecho:\nchunk_id: {chunk_id}\ntext: {chunk_text}\n\n"
-             "Atribua score 0-3:\n"
-             "3 = responde diretamente e contém evidência clara\n"
-             "2 = muito relacionado e ajuda bastante\n"
-             "1 = relacionado indiretamente / contexto fraco\n"
-             "0 = irrelevante ou genérico\n\n"
-             "Regra extra:\n"
-             "- Se a consulta contém um código BNCC (ex: EM13MAT303), só dê 3 se o trecho contém esse código "
-             "ou descreve exatamente essa habilidade.\n\n"
-             "{format_instructions}")
+            ("system", system),
+            (
+                "human",
+                "Consulta do usuário:\n{query}\n\n"
+                "Trecho a avaliar:\nchunk_id: {chunk_id}\n\n{chunk_text}\n\n"
+                "---\n\n"
+                + RELEVANCE_RUBRIC
+                + "\n\n"
+                + BNCC_CODE_RULE
+                + "\n\n"
+                "Responda com score (0, 1, 2 ou 3) e rationale.\n\n"
+                "{format_instructions}",
+            ),
         ]
     )
 
@@ -158,10 +180,14 @@ def main():
         print(f"[JUDGE] id={qid}")
         print(query)
 
-        existing_relevant: dict[str, int] = item.get("relevant") or {}
-        existing_relevant = {str(k): int(v) for k, v in existing_relevant.items()}
+        raw_relevant = item.get("relevant")
+        if isinstance(raw_relevant, list):
+            existing_relevant = {e["chunk_id"]: int(e["nota"]) for e in raw_relevant if e.get("nota") is not None}
+        else:
+            existing_relevant = {str(k): int(v) for k, v in (raw_relevant or {}).items()}
 
         scored: dict[str, int] = dict(existing_relevant)
+        rationale_by_cid: dict[str, str | None] = {}
 
         seen: set[str] = set()
 
@@ -188,17 +214,28 @@ def main():
 
                     judged = judge_one(chain, parser, query=query, chunk_id=cid, chunk_text=text)
                     scored[cid] = int(judged.score)
+                    rationale_by_cid[cid] = judged.rationale
 
                     print(f"  chunk={cid} | score={judged.score}")
 
         ranked = sorted(scored.items(), key=lambda x: x[1], reverse=True)
         top = ranked[:TOP_SAVE]
 
-        item["relevant"] = {cid: int(s) for cid, s in top}
+        # Salva no mesmo formato que queries_with_text: lista de { chunk_id, text, nota, rationale? }
+        item["relevant"] = []
+        for cid, s in top:
+            ent = {
+                "chunk_id": cid,
+                "text": chunk_text_map.get(cid, ""),
+                "nota": int(s),
+            }
+            if rationale_by_cid.get(cid):
+                ent["rationale"] = rationale_by_cid[cid]
+            item["relevant"].append(ent)
 
         updated.append(item)
 
-        print("Saved relevant (top):", item["relevant"])
+        print("Saved relevant (top):", [(c, s) for c, s in top])
 
     out_path = QUERIES_PATH.parent / "queries_judged.json"
     with out_path.open("w", encoding="utf-8") as f:
